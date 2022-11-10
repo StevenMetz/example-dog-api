@@ -1,0 +1,32 @@
+### CREATE DOG
+POST http://localhost:3000/dogs.json
+Content-Type:  application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NjgyMDEwMDZ9.u6OHACvmgDQ_2a6P-DSOBFtTBVlQ0_ipxtkcYS3kkDw
+
+{
+  "name": "Amber",
+  "breed": "German Shepherd, Black Labrador",
+  "age": 10
+
+}
+
+### USERS LOGIN 
+### Users create (signup)
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+
+{
+  "name": "Test name",
+  "email": "test@test.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
+### Sessions create (login)
+POST http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "password"
+}
