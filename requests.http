@@ -1,7 +1,10 @@
+
+GET http://localhost:3000/dogs.json
+
+
 ### CREATE DOG
 POST http://localhost:3000/dogs.json
 Content-Type:  application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NjgyMDEwMDZ9.u6OHACvmgDQ_2a6P-DSOBFtTBVlQ0_ipxtkcYS3kkDw
 
 {
   "name": "Amber",
